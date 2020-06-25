@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script>
+    $(function () {
+        // $.post(
+        //     "admini/regist",
+        //     {admini_name:"马超",admini_password:"123456",admini_telephone:"13186379659",admini_canteen:"新食堂",admini_tier:"一楼",admini_num:"1"},
+        //     function (data) {
+        //
+        //     }
+        // )
+        // $.post("visitor/login",{user_password:"123456",user_telephone:"13093944163"},function (data) {
+        //     if (data.flag){
+        //         $.post("visitor/nofinishOrder",{},function (data) {
+        //             // alert(data.errorMsg)
+        //         })
+        //     }
+        // })
+
+        $.post("visitor/orderfood",{order_id:"1"},function (data) {})
+        // $.post("visitor/login",{user_telephone:13093944163,user_password:123456},function (data) {
+        //     if (data.flag){
+        //         var arr = [];
+        //         arr.push({good_food_id:"3",good_num:"2"});
+        //         arr.push({good_food_id:"4",good_num:"20"});
+        //         arr.push({good_food_id:"6",good_num:"8"});
+        //         var data = JSON.stringify(arr);
+        //         $.post("visitor/submit",{window_id:"1",price:"22",about:"带包烟",object:data},function (data) {
+        //             //alert(data.errorMsg)
+        //         })
+        //     }
+        // })
+
+    })
+</script>
+<body>
+<h1>1231212</h1>
+</body>
+</html>

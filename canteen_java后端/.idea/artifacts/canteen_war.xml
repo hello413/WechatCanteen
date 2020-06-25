@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="canteen:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>canteen</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="school_canteen.war">
+      <element id="artifact" artifact-name="canteen:war exploded" />
+    </root>
+  </artifact>
+</component>
